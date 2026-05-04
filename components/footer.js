@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Script from 'dangerous-html/react'
-import { useTranslations } from 'next-intl'
 
 const Footer = (props) => {
   return (
@@ -11,27 +10,15 @@ const Footer = (props) => {
           <div className="footer-container">
             <div className="footer-top-grid">
               <div className="footer-brand-col footer-column">
-                <h2 className="footer-logo">
-                  <span>
-                    {' '}
-                    Angel Custom Cabinets
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="footer-thq-footer-logo-amp-elm">&amp;</span>
-                  <span>
-                    {' '}
-                    Granite
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </h2>
+                <div className="footer-logo-wrap">
+                  <img
+                    src="/sonora-stone-logo.png"
+                    alt="Sonora Stone — Stone Installation"
+                    className="footer-logo-img"
+                    width={260}
+                    height={94}
+                  />
+                </div>
                 <p className="section-content footer-description">
                   Bespoke craftsmanship for modern living. 100% custom work
                   tailored specifically to your vision. No templates, no
@@ -222,7 +209,7 @@ const Footer = (props) => {
             <div className="footer-bottom-bar">
               <div className="footer-legal-wrap">
                 <span className="footer-copyright">
-                  © 2026 Angel Custom Cabinets and Granite. All Rights Reserved.
+                  © 2026 Sonora Stone. All Rights Reserved.
                 </span>
                 <div className="footer-legal-links">
                   <a href="#">
@@ -287,10 +274,11 @@ const Footer = (props) => {
           .footer-container1 {
             display: contents;
           }
-          .footer-thq-footer-logo-amp-elm {
-            color: var(--color-accent);
-            font-style: italic;
-            font-family: serif;
+          .footer-logo-img {
+            display: block;
+            height: auto;
+            max-width: 240px;
+            width: 100%;
           }
           .footer-container2 {
             display: none;

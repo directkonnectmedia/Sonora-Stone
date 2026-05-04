@@ -12,9 +12,13 @@ const Navigation = (props) => {
             <Link href="/">
               <a>
                 <div className="navigation-logo-link">
-                  <span className="navigation-brand-name">
-                    Angel Custom Cabinets &amp; Granite
-                  </span>
+                  <img
+                    src="/sonora-stone-logo.png"
+                    alt="Sonora Stone — Stone Installation"
+                    className="navigation-logo-img"
+                    width={200}
+                    height={72}
+                  />
                 </div>
               </a>
             </Link>
@@ -67,7 +71,13 @@ const Navigation = (props) => {
           className="navigation-mobile-overlay"
         >
           <div className="navigation-overlay-header">
-            <span className="navigation-brand-name">Angel Custom</span>
+            <img
+              src="/sonora-stone-logo.png"
+              alt="Sonora Stone — Stone Installation"
+              className="navigation-logo-img navigation-logo-img-overlay"
+              width={196}
+              height={70}
+            />
             <button
               id="navigation-mobile-close"
               aria-label="Close Menu"

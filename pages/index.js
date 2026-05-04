@@ -2,8 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
-import { useTranslations } from 'next-intl'
-
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 
@@ -12,16 +10,10 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>Angel Custom Cabinets</title>
-          <meta property="og:title" content="Angel Custom Cabinets" />
-          <link
-            rel="canonical"
-            href="https://sweltering-scratchy-wallaby-gswxs0.teleporthq.site/"
-          />
-          <meta
-            property="og:url"
-            content="https://sweltering-scratchy-wallaby-gswxs0.teleporthq.site/"
-          />
+          <title>Sonora Stone</title>
+          <meta property="og:title" content="Sonora Stone" />
+          <link rel="canonical" href="https://sonora-stone.vercel.app/" />
+          <meta property="og:url" content="https://sonora-stone.vercel.app/" />
         </Head>
         <Navigation></Navigation>
         <section className="editorial-hero">
@@ -35,7 +27,9 @@ const Home = (props) => {
               <div className="hero-centerpiece-overlay">
                 <div className="editorial-hero-content">
                   <div className="editorial-hero-trust-row">
-                    <span className="editorial-hero-metric">Crafted by Angel</span>
+                    <span className="editorial-hero-metric">
+                      Crafted by Miguel
+                    </span>
                     <div className="editorial-hero-divider"></div>
                     <span className="editorial-hero-metric">
                       Arizona&apos;s Premier Custom Studio
@@ -305,7 +299,7 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="section-content">
-                  &quot;Angel&apos;s attention to detail is unmatched. Our
+                  &quot;Miguel&apos;s attention to detail is unmatched. Our
                   custom kitchen island is the focal point of our entire home.
                   Pure craftsmanship.&quot;
                 </p>
@@ -432,7 +426,7 @@ const Home = (props) => {
                 </div>
                 <p className="section-content">
                   &quot;The granite selection and installation were flawless.
-                  Angel is a true artist when it comes to stone work.&quot;
+                  Miguel is a true artist when it comes to stone work.&quot;
                 </p>
                 <div className="testimonial-author">
                   <span className="author-name">Sarah Miller</span>
@@ -516,7 +510,7 @@ const Home = (props) => {
                 </p>
                 <div className="lead-gen-direct">
                   <span className="direct-label">
-                    Talk to Angel directly at
+                    Talk to Miguel directly at
                   </span>
                   <a href="tel:6024659425">
                     <div className="direct-phone">
@@ -887,7 +881,7 @@ const Home = (props) => {
               Thank you for selecting our services
             </h3>
             <p className="modal-subtitle">
-              Angel will reach out shortly to begin crafting your vision.
+              Miguel will reach out shortly to begin crafting your vision.
             </p>
           </div>
         </div>

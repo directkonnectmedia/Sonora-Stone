@@ -990,6 +990,19 @@ html {
   flex-shrink: 0;
   text-decoration: none;
 }
+
+.navigation-logo-img {
+  display: block;
+  height: 44px;
+  width: auto;
+  max-width: min(220px, 55vw);
+  object-fit: contain;
+}
+
+.navigation-logo-img-overlay {
+  height: 40px;
+  max-width: 200px;
+}
  
 .navigation-desktop-menu {
   display: flex;
@@ -2265,15 +2278,21 @@ html {
   .thq-grid-auto-300 {
     grid-template-columns: 1fr;
   }
-  .footer-logo {
-    font-size: var(--font-size-xl);
+  .footer-logo-img {
+    max-width: 200px;
   }
   .footer-legal-links {
     gap: var(--spacing-xs);
     flex-direction: column;
   }
-  .navigation-brand-name {
-    font-size: var(--font-size-base);
+  .navigation-logo-img {
+    height: 38px;
+    max-width: min(200px, 50vw);
+  }
+
+  .navigation-logo-img-overlay {
+    height: 34px;
+    max-width: 180px;
   }
   .hero-feature-glass-card {
     padding: var(--spacing-md);
