@@ -1811,7 +1811,7 @@ html {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding-bottom: 120px;
+  padding-bottom: var(--spacing-2xl);
 }
 
 .editorial-hero-trust-row {
@@ -1849,48 +1849,6 @@ html {
   gap: var(--spacing-2xl);
   display: flex;
   margin-top: var(--spacing-3xl);
-}
-
-.hero-feature-glass-card {
-  position: absolute;
-  right: var(--spacing-2xl);
-  bottom: var(--spacing-2xl);
-  width: 380px;
-  padding: var(--spacing-xl);
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-sm);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(23, 24, 28, 0.55);
-  border-radius: var(--border-radius-md);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  z-index: 3;
-  text-align: left;
-}
-
-.hero-feature-tag {
-  color: var(--color-accent);
-  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.hero-feature-title {
-  font-family: var(--font-family-heading);
-  font-size: clamp(1.5rem, 2.4vw, 2rem);
-  line-height: 1.15;
-  margin: 0;
-  color: var(--color-on-surface);
-}
-
-.hero-feature-details {
-  gap: var(--spacing-xl);
-  display: flex;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  margin-top: var(--spacing-xs);
-  padding-top: var(--spacing-md);
 }
 
 /* === STANDALONE MARQUEE DIVIDER === */
@@ -2151,14 +2109,6 @@ html {
   .editorial-hero-actions .btn {
     width: 100%;
   }
-  .hero-feature-glass-card {
-    position: absolute;
-    right: var(--spacing-lg);
-    bottom: var(--spacing-lg);
-    width: calc(100% - var(--spacing-lg) * 2);
-    max-width: 360px;
-    margin-top: 0;
-  }
   .thq-grid-4 {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -2330,19 +2280,7 @@ html {
     max-height: min(340px, 48vh);
   }
 
-  .hero-feature-glass-card {
-    padding: var(--spacing-md);
-    margin-top: 0;
-    right: var(--spacing-md);
-    bottom: var(--spacing-md);
-    width: calc(100% - var(--spacing-md) * 2);
-    max-width: 320px;
-  }
   .editorial-hero-content {
-    padding-bottom: 160px;
-  }
-  .hero-feature-details {
-    gap: var(--spacing-sm);
-    flex-direction: column;
+    padding-bottom: var(--spacing-2xl);
   }
 }

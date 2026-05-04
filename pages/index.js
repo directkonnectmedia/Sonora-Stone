@@ -56,25 +56,6 @@ const Home = (props) => {
                     </a>
                   </div>
                 </div>
-
-                <div className="hero-feature-glass-card">
-                  <span className="section-subtitle hero-feature-tag">
-                    Featured Project
-                  </span>
-                  <h2 className="hero-feature-title">The Obsidian Suite</h2>
-                  <div className="hero-feature-details">
-                    <div className="detail-item">
-                      <span className="detail-label">Materials</span>
-                      <span className="detail-value">
-                        Quartz &amp; Custom Oak
-                      </span>
-                    </div>
-                    <div className="detail-item">
-                      <span className="detail-label">Location</span>
-                      <span className="detail-value">Scottsdale, AZ</span>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
