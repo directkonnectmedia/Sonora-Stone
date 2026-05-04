@@ -1852,8 +1852,21 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(23, 24, 28, 0.8) 0%, rgba(23, 24, 28, 0.4) 50%, rgba(23, 24, 28, 0.85) 100%);
+  /* Lighter veil so the stonework stays visible; typography uses shadow below for contrast */
+  background: linear-gradient(
+    to bottom,
+    rgba(23, 24, 28, 0.42) 0%,
+    rgba(23, 24, 28, 0.18) 45%,
+    rgba(23, 24, 28, 0.62) 100%
+  );
   padding: var(--spacing-3xl) var(--spacing-xl);
+}
+
+.hero-centerpiece-overlay .editorial-hero-metric {
+  color: rgba(253, 252, 250, 0.95);
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.5),
+    0 2px 18px rgba(0, 0, 0, 0.45);
 }
 
 .editorial-hero-content {
