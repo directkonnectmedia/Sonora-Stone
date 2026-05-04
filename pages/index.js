@@ -592,7 +592,6 @@ const Home = (props) => {
                     <span className="wizard-progress-step" data-progress="2"></span>
                     <span className="wizard-progress-step" data-progress="3"></span>
                     <span className="wizard-progress-step" data-progress="4"></span>
-                    <span className="wizard-progress-step" data-progress="5"></span>
                   </div>
 
                   <div data-step="1" className="active wizard-step">
@@ -633,51 +632,6 @@ const Home = (props) => {
                   </div>
 
                   <div data-step="2" className="wizard-step">
-                    <h3 className="section-subtitle">Preferred Materials</h3>
-                    <p className="wizard-helper">Select all that apply.</p>
-                    <div className="form-options-grid">
-                      <label className="option-card">
-                        <input
-                          type="checkbox"
-                          name="materials"
-                          value="quartz"
-                        />
-                        <span className="option-content">Quartz</span>
-                      </label>
-                      <label className="option-card">
-                        <input
-                          type="checkbox"
-                          name="materials"
-                          value="granite"
-                        />
-                        <span className="option-content">Granite</span>
-                      </label>
-                      <label className="option-card">
-                        <input
-                          type="checkbox"
-                          name="materials"
-                          value="rock"
-                        />
-                        <span className="option-content">Artificial Rock</span>
-                      </label>
-                    </div>
-                    <div className="wizard-actions">
-                      <button
-                        type="button"
-                        className="prev-step btn-outline btn"
-                      >
-                        Back
-                      </button>
-                      <button
-                        type="button"
-                        className="next-step btn-primary btn"
-                      >
-                        Next Step
-                      </button>
-                    </div>
-                  </div>
-
-                  <div data-step="3" className="wizard-step">
                     <h3 className="section-subtitle">Project Timeline</h3>
                     <p className="wizard-helper">When are you hoping to begin?</p>
                     <div className="form-options-grid">
@@ -739,7 +693,7 @@ const Home = (props) => {
                     </div>
                   </div>
 
-                  <div data-step="4" className="wizard-step">
+                  <div data-step="3" className="wizard-step">
                     <h3 className="section-subtitle">Project Details</h3>
                     <p className="wizard-helper">
                       Share anything you&apos;d like — budget, dimensions,
@@ -769,7 +723,7 @@ const Home = (props) => {
                     </div>
                   </div>
 
-                  <div data-step="5" className="wizard-step">
+                  <div data-step="4" className="wizard-step">
                     <h3 className="section-subtitle">Contact Details</h3>
                     <p className="wizard-helper">
                       Full name is required. Provide an email, phone, or both —
