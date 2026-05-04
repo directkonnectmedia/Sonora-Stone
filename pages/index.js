@@ -103,8 +103,8 @@ const Home = (props) => {
               <div className="spread-item">
                 <div className="spread-image-wrapper">
                   <img
-                    alt="Stone veneer fireplace interior"
-                    src="https://images.pexels.com/photos/6587899/pexels-photo-6587899.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Modern floor-to-ceiling light stone veneer fireplace with dark wood mantel and built-in shelving"
+                    src="/services-stone-fireplace.jpg"
                     className="spread-image"
                   />
                 </div>
