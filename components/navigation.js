@@ -25,6 +25,13 @@ const Navigation = (props) => {
             <div className="navigation-desktop-menu">
               <ul className="navigation-links-list">
                 <li className="navigation-link-item">
+                  <a href="#gallery" className="navigation-anchor">
+                    <div className="navigation-link">
+                      <span>Gallery</span>
+                    </div>
+                  </a>
+                </li>
+                <li className="navigation-link-item">
                   <a href="#services" className="navigation-anchor">
                     <div className="navigation-link">
                       <span>Services</span>
@@ -106,6 +113,13 @@ const Navigation = (props) => {
           </div>
           <div className="navigation-overlay-content">
             <ul className="navigation-overlay-links">
+              <li className="navigation-overlay-item">
+                <a href="#gallery" className="navigation-anchor">
+                  <div className="navigation-overlay-link">
+                    <span>Gallery</span>
+                  </div>
+                </a>
+              </li>
               <li className="navigation-overlay-item">
                 <a href="#services" className="navigation-anchor">
                   <div className="navigation-overlay-link">

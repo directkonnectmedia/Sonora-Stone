@@ -134,9 +134,7 @@ const Home = (props) => {
         <section id="gallery" className="portfolio-grid">
           <div className="portfolio-grid-container">
             <div className="portfolio-header">
-              <h2 className="section-title">
-                Masterpieces in Stone &amp; Wood
-              </h2>
+              <h2 className="section-title">Gallery section</h2>
             </div>
             <div className="portfolio-masonry">
               <div className="portfolio-item">
