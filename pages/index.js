@@ -117,8 +117,8 @@ const Home = (props) => {
               <div className="spread-item">
                 <div className="spread-image-wrapper">
                   <img
-                    alt="Outdoor stone pillars and archway"
-                    src="https://images.pexels.com/photos/713295/pexels-photo-713295.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Residential entry with dark ledger stone columns and arch, light stone veneer walls, and glass front door"
+                    src="/services-stone-archway.jpg"
                     className="spread-image"
                   />
                 </div>
