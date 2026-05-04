@@ -44,7 +44,7 @@ const Home = (props) => {
                       height={260}
                     />
                   </h1>
-                  <div className="editorial-hero-actions hero-cta-dual">
+                  <div className="editorial-hero-actions hero-cta-row">
                     <a
                       href="#contact"
                       className="navigation-anchor hero-cta-anchor"
@@ -52,9 +52,17 @@ const Home = (props) => {
                       <button
                         id="hero-book-btn"
                         type="button"
-                        className="btn-lg btn-accent btn hero-cta-btn"
+                        className="btn-lg btn hero-cta-gold-btn"
                       >
                         Book Consult
+                      </button>
+                    </a>
+                    <a
+                      href="#gallery"
+                      className="navigation-anchor hero-cta-anchor"
+                    >
+                      <button type="button" className="btn-lg btn hero-cta-gold-btn">
+                        Gallery
                       </button>
                     </a>
                     <a
@@ -63,7 +71,7 @@ const Home = (props) => {
                     >
                       <button
                         type="button"
-                        className="btn-lg btn-accent btn hero-cta-btn"
+                        className="btn-lg btn hero-cta-gold-btn"
                       >
                         Services
                       </button>
@@ -101,65 +109,73 @@ const Home = (props) => {
         <section id="services" className="editorial-spread">
           <div className="editorial-spread-container">
             <div className="editorial-spread-header">
-              <h2 className="section-title">The Editorial Spread</h2>
+              <h2 className="section-title">Services</h2>
               <p className="section-content">
-                A curated portfolio of bespoke solutions for the modern home.
+                Bespoke stone veneer for spaces that breathe—outdoor living,
+                hearthside warmth, and architecture that announces your home
+                before you&apos;ve crossed the threshold.
               </p>
             </div>
             <div className="editorial-spread-grid">
               <div className="spread-item">
                 <div className="spread-image-wrapper">
                   <img
-                    alt="Custom Cabinets Detail"
-                    src="https://images.pexels.com/photos/6264408/pexels-photo-6264408.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Outdoor stone veneer patio backdrop"
+                    src="https://images.pexels.com/photos/2210271/pexels-photo-2210271.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="spread-image"
                   />
                 </div>
                 <div className="spread-glass-panel">
-                  <h3 className="section-subtitle">Custom Cabinets</h3>
+                  <h3 className="section-subtitle">
+                    Custom stone veneer work — Back patios
+                  </h3>
                   <p className="section-content">
-                    Tailored, built-to-order precision that redefines functional
-                    art. We specialize in seamless integration and unique
-                    finishes.
+                    Custom stone veneers made for you by us. Make your dream
+                    vision come true.
                   </p>
                 </div>
               </div>
               <div className="spread-item">
                 <div className="spread-image-wrapper">
                   <img
-                    alt="Luxury Countertops"
-                    src="https://images.pexels.com/photos/11701162/pexels-photo-11701162.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Stone veneer fireplace interior"
+                    src="https://images.pexels.com/photos/6587899/pexels-photo-6587899.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="spread-image"
                   />
                 </div>
                 <div className="spread-glass-panel">
-                  <h3 className="section-subtitle">Countertops</h3>
+                  <h3 className="section-subtitle">
+                    Indoor stone veneer — Fireplace
+                  </h3>
                   <p className="section-content">
-                    Exquisite Granite, Quartz, and Artificial Rock Slabs. Each
-                    piece is hand-selected and cut to perfection for your space.
+                    Quiet luxury centered on the hearth—tailored stonework that
+                    frames the flame and elevates every evening in your home.
                   </p>
                 </div>
               </div>
               <div className="spread-item">
                 <div className="spread-image-wrapper">
                   <img
-                    alt="Custom Bathroom Vanity"
-                    src="https://images.pexels.com/photos/11701111/pexels-photo-11701111.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Outdoor stone pillars and archway"
+                    src="https://images.pexels.com/photos/713295/pexels-photo-713295.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="spread-image"
                   />
                 </div>
                 <div className="spread-glass-panel">
-                  <h3 className="section-subtitle">Bathroom Vanities</h3>
+                  <h3 className="section-subtitle">
+                    Stone veneer — Pillars &amp; archways for outdoor homes
+                  </h3>
                   <p className="section-content">
-                    Bespoke luxury for your most personal spaces. From floating
-                    minimalist designs to grand double-sink masterpieces.
+                    Statement columns and refined archways carved in stone—built
+                    to endure desert sun while welcoming guests with unmistakable
+                    presence.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="portfolio-grid">
+        <section id="gallery" className="portfolio-grid">
           <div className="portfolio-grid-container">
             <div className="portfolio-header">
               <h2 className="section-title">
@@ -513,9 +529,9 @@ const Home = (props) => {
                   <span className="direct-label">
                     Talk to Miguel directly at
                   </span>
-                  <a href="tel:6024659425">
+                  <a href="tel:+16022459081">
                     <div className="direct-phone">
-                      <span>(602) 465-9425</span>
+                      <span>(602) 245-9081</span>
                     </div>
                   </a>
                 </div>
@@ -588,38 +604,54 @@ const Home = (props) => {
                   <div data-step="1" className="active wizard-step">
                     <h3 className="section-subtitle">What are we building?</h3>
                     <p className="wizard-helper">Choose one to begin.</p>
-                    <div className="form-options-grid">
+                    <div className="form-options-grid form-options-services">
                       <label className="option-card auto-advance">
                         <input
                           type="radio"
                           name="project_type"
-                          value="cabinets"
+                          value="stone-veneer-back-patios"
                         />
-                        <span className="option-content">Custom Cabinets</span>
+                        <span className="option-content option-lines">
+                          <span className="option-line-title">
+                            Custom stone veneer — Back patios
+                          </span>
+                          <span className="option-line-desc">
+                            Custom stone veneers made for you by us. Make your
+                            dream vision come true.
+                          </span>
+                        </span>
                       </label>
                       <label className="option-card auto-advance">
                         <input
                           type="radio"
                           name="project_type"
-                          value="countertops"
+                          value="stone-veneer-fireplace"
                         />
-                        <span className="option-content">Countertops</span>
+                        <span className="option-content option-lines">
+                          <span className="option-line-title">
+                            Indoor stone veneer — Fireplace
+                          </span>
+                          <span className="option-line-desc">
+                            Hearth-centered stonework crafted for warmth, depth,
+                            and understated luxury indoors.
+                          </span>
+                        </span>
                       </label>
                       <label className="option-card auto-advance">
                         <input
                           type="radio"
                           name="project_type"
-                          value="vanities"
+                          value="stone-veneer-pillars-archways"
                         />
-                        <span className="option-content">Bathroom Vanities</span>
-                      </label>
-                      <label className="option-card auto-advance">
-                        <input
-                          type="radio"
-                          name="project_type"
-                          value="custom"
-                        />
-                        <span className="option-content">Custom Work</span>
+                        <span className="option-content option-lines">
+                          <span className="option-line-title">
+                            Stone veneer — Pillars &amp; archways for outdoor homes
+                          </span>
+                          <span className="option-line-desc">
+                            Columns and archways in natural stone presence—welcome
+                            guests with enduring curb appeal.
+                          </span>
+                        </span>
                       </label>
                     </div>
                   </div>
@@ -822,7 +854,7 @@ const Home = (props) => {
                   Ready to transform your space?
                 </h2>
                 <div className="cta-strip-actions">
-                  <a href="tel:6024659425">
+                  <a href="tel:+16022459081">
                     <div className="cta-strip-phone">
                       <svg
                         fill="none"
@@ -837,7 +869,7 @@ const Home = (props) => {
                       >
                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                       </svg>
-                      <span>(602) 465-9425</span>
+                      <span>(602) 245-9081</span>
                     </div>
                   </a>
                   <a href="#contact" className="navigation-anchor">

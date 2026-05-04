@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import Script from 'dangerous-html/react'
 
-const NAV_BRAND_IMAGE = '/sonora-stone-nav-brand.png?v=6'
+const NAV_BRAND_IMAGE = '/sonora-stone-nav-brand.png?v=7'
 
 const Navigation = (props) => {
   return (
@@ -17,8 +17,8 @@ const Navigation = (props) => {
                   src={NAV_BRAND_IMAGE}
                   alt="Sonora Stone — Stone Installation"
                   className="navigation-brand-img"
-                  width={128}
-                  height={128}
+                  width={152}
+                  height={152}
                 />
               </a>
             </Link>
@@ -76,8 +76,8 @@ const Navigation = (props) => {
                 src={NAV_BRAND_IMAGE}
                 alt="Sonora Stone — Stone Installation"
                 className="navigation-brand-img navigation-brand-img-overlay"
-                width={112}
-                height={112}
+                width={132}
+                height={132}
               />
             </div>
             <button
@@ -122,9 +122,9 @@ const Navigation = (props) => {
               </li>
             </ul>
             <div className="navigation-overlay-footer">
-              <a href="tel:602-465-9425">
+              <a href="tel:+16022459081">
                 <div className="navigation-overlay-phone">
-                  <span>602-465-9425</span>
+                  <span>602-245-9081</span>
                 </div>
               </a>
               <a href="#contact" className="navigation-anchor">
