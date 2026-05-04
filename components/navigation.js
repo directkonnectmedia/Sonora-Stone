@@ -11,9 +11,13 @@ const Navigation = (props) => {
           <div className="navigation-container">
             <Link href="/">
               <a className="navigation-brand">
-                <span className="navigation-brand-wordmark sonora-stone-gold-text">
-                  Sonora Stone
-                </span>
+                <img
+                  src="/sonora-stone-nav-brand.png"
+                  alt="Sonora Stone — Stone Installation"
+                  className="navigation-brand-img"
+                  width={320}
+                  height={80}
+                />
               </a>
             </Link>
             <div className="navigation-desktop-menu">
@@ -66,9 +70,13 @@ const Navigation = (props) => {
         >
           <div className="navigation-overlay-header">
             <div className="navigation-overlay-brand">
-              <span className="navigation-brand-wordmark navigation-brand-wordmark-overlay sonora-stone-gold-text">
-                Sonora Stone
-              </span>
+              <img
+                src="/sonora-stone-nav-brand.png"
+                alt="Sonora Stone — Stone Installation"
+                className="navigation-brand-img navigation-brand-img-overlay"
+                width={288}
+                height={72}
+              />
             </div>
             <button
               id="navigation-mobile-close"

@@ -15,10 +15,6 @@ html {
   --spacing-4xl: 4rem;
   --color-accent: #0c8b8b;
   --color-brand-gold: #d4af37;
-  --sonora-gold-light: #f7eacb;
-  --sonora-gold-face: #e8c547;
-  --sonora-gold-mid: #c9a227;
-  --sonora-gold-deep: #856a15;
   --color-border: rgba(191, 198, 204, 0.12);
   --font-size-lg: clamp(1.1rem, 1.6vw, 1.25rem);
   --font-size-sm: clamp(0.85rem, 1.1vw, 0.95rem);
@@ -999,43 +995,18 @@ html {
   color: inherit;
 }
 
-/* Matches centerpiece logo gold lettering */
-.sonora-stone-gold-text {
-  color: transparent;
-  background-image: linear-gradient(
-    165deg,
-    var(--sonora-gold-light) 0%,
-    var(--sonora-gold-face) 28%,
-    var(--sonora-gold-mid) 52%,
-    var(--sonora-gold-deep) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.navigation-brand-img {
+  display: block;
+  height: clamp(44px, 5.5vw, 58px);
+  width: auto;
+  max-width: min(340px, 52vw);
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
-@supports not (background-clip: text) {
-  .sonora-stone-gold-text {
-    background-image: none;
-    -webkit-text-fill-color: unset;
-    color: var(--sonora-gold-face);
-    text-shadow:
-      0 1px 0 var(--sonora-gold-deep),
-      0 2px 12px rgba(0, 0, 0, 0.4);
-  }
-}
-
-.navigation-brand-wordmark {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  line-height: 1;
-  filter: drop-shadow(0 2px 14px rgba(0, 0, 0, 0.5));
-}
-
-.navigation-brand-wordmark-overlay {
-  font-size: clamp(1.9rem, 7vw, 3rem);
+.navigation-brand-img-overlay {
+  height: clamp(40px, 9vw, 52px);
+  max-width: min(300px, 78vw);
 }
 
 .navigation-overlay-brand {
@@ -2346,8 +2317,9 @@ html {
     gap: var(--spacing-xs);
     flex-direction: column;
   }
-  .navigation-brand-wordmark {
-    font-size: clamp(1.65rem, 8vw, 2.85rem);
+  .navigation-brand-img {
+    height: clamp(38px, 10vw, 48px);
+    max-width: min(280px, 70vw);
   }
 
   .hero-brand-logo-img {
