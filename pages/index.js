@@ -141,72 +141,112 @@ const Home = (props) => {
             <div className="portfolio-masonry">
               <div className="portfolio-item">
                 <img
-                  alt="Project Alpha"
-                  src="https://images.pexels.com/photos/32277993/pexels-photo-32277993.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Interior stone veneer accent wall with wall-mounted television and white built-in cabinetry"
+                  src="/gallery-stone-tv.jpg"
                   className="portfolio-image"
                 />
                 <div className="portfolio-hover-card">
-                  <h4 className="portfolio-item-title">The Nordic Bath</h4>
-                  <p className="portfolio-item-meta">
-                    Phoenix • Artificial Rock
-                  </p>
+                  <h4 className="portfolio-item-title">Entertainment stone wall</h4>
+                  <p className="portfolio-item-meta">Arizona • Stone veneer & wood</p>
                 </div>
               </div>
               <div className="portfolio-item">
                 <img
-                  alt="Project Beta"
-                  src="https://images.pexels.com/photos/11701125/pexels-photo-11701125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Backyard swimming pool patio with perimeter wall accented by stacked stone veneer columns"
+                  src="/gallery-stone-pillar.jpg"
                   className="portfolio-image"
                 />
                 <div className="portfolio-hover-card">
-                  <h4 className="portfolio-item-title">Azure Kitchen</h4>
-                  <p className="portfolio-item-meta">Mesa • Custom Oak</p>
+                  <h4 className="portfolio-item-title">Poolside stone columns</h4>
+                  <p className="portfolio-item-meta">Scottsdale • Outdoor veneer</p>
                 </div>
               </div>
               <div className="portfolio-item">
                 <img
-                  alt="Project Gamma"
-                  src="https://images.pexels.com/photos/6636303/pexels-photo-6636303.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Outdoor living bar clad in earthy stacked stone veneer with patio seating"
+                  src="/gallery-stone-patio.jpg"
                   className="portfolio-image"
                 />
                 <div className="portfolio-hover-card">
-                  <h4 className="portfolio-item-title">Minimalist Loft</h4>
-                  <p className="portfolio-item-meta">Tempe • White Quartz</p>
+                  <h4 className="portfolio-item-title">Outdoor bar stonework</h4>
+                  <p className="portfolio-item-meta">Paradise Valley • Patio masonry</p>
                 </div>
               </div>
               <div className="portfolio-item">
                 <img
-                  alt="Project Delta"
-                  src="https://images.pexels.com/photos/15743384/pexels-photo-15743384.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Circular flagstone patio surrounding a stacked stone fire pit filled with firewood"
+                  src="/gallery-stone-patio-firepit.jpg"
                   className="portfolio-image"
                 />
                 <div className="portfolio-hover-card">
-                  <h4 className="portfolio-item-title">Gilded Vanity</h4>
-                  <p className="portfolio-item-meta">
-                    Paradise Valley • Granite
-                  </p>
+                  <h4 className="portfolio-item-title">Flagstone patio & fire pit</h4>
+                  <p className="portfolio-item-meta">Phoenix • Custom hardscape</p>
                 </div>
               </div>
               <div className="portfolio-item">
                 <img
-                  alt="Project Epsilon"
-                  src="https://images.pexels.com/photos/5252536/pexels-photo-5252536.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Residential garage exterior with cream and grey ashlar stone veneer and dark paver driveway"
+                  src="/gallery-stone-home-wall.jpg"
                   className="portfolio-image"
                 />
                 <div className="portfolio-hover-card">
-                  <h4 className="portfolio-item-title">Monolith Island</h4>
-                  <p className="portfolio-item-meta">Chandler • Dark Quartz</p>
+                  <h4 className="portfolio-item-title">Stone veneer façade</h4>
+                  <p className="portfolio-item-meta">Gilbert • Exterior masonry</p>
                 </div>
               </div>
               <div className="portfolio-item">
                 <img
-                  alt="Project Zeta"
-                  src="https://images.pexels.com/photos/34081555/pexels-photo-34081555.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Floor-to-ceiling white stacked stone veneer fireplace surround with recessed TV wiring niche"
+                  src="/gallery-stone-fireplace-tv-mount.jpg"
                   className="portfolio-image"
                 />
                 <div className="portfolio-hover-card">
-                  <h4 className="portfolio-item-title">Classic Estate</h4>
-                  <p className="portfolio-item-meta">Gilbert • Custom Walnut</p>
+                  <h4 className="portfolio-item-title">Fireplace TV prep</h4>
+                  <p className="portfolio-item-meta">Tempe • Hearth stonework</p>
+                </div>
+              </div>
+              <div className="portfolio-item">
+                <img
+                  alt="Modern floor-to-ceiling stone fireplace with mounted television wood mantel and lit floating shelves"
+                  src="/gallery-stone-fireplace.jpg"
+                  className="portfolio-image"
+                />
+                <div className="portfolio-hover-card">
+                  <h4 className="portfolio-item-title">Living room fireplace suite</h4>
+                  <p className="portfolio-item-meta">Chandler • Veneer & built-ins</p>
+                </div>
+              </div>
+              <div className="portfolio-item">
+                <img
+                  alt="Stone veneer pillars and entryway columns on a landscaped residential front walkway"
+                  src="/gallery-stone-columns.jpg"
+                  className="portfolio-image"
+                />
+                <div className="portfolio-hover-card">
+                  <h4 className="portfolio-item-title">Entry columns & stonework</h4>
+                  <p className="portfolio-item-meta">Mesa • Stone columns</p>
+                </div>
+              </div>
+              <div className="portfolio-item">
+                <img
+                  alt="Outdoor patio chimney clad in light stone veneer extending past shingle roof toward blue sky"
+                  src="/gallery-stone-chimney.jpg"
+                  className="portfolio-image"
+                />
+                <div className="portfolio-hover-card">
+                  <h4 className="portfolio-item-title">Chimney stone veneer</h4>
+                  <p className="portfolio-item-meta">Arizona • Architectural stone</p>
+                </div>
+              </div>
+              <div className="portfolio-item">
+                <img
+                  alt="Modern residence entry with massive dark ledger stone pillars contrasting light veneer walls and glass front door"
+                  src="/gallery-stone-archway.jpg"
+                  className="portfolio-image"
+                />
+                <div className="portfolio-hover-card">
+                  <h4 className="portfolio-item-title">Portico pillars & entryway</h4>
+                  <p className="portfolio-item-meta">Peoria • Archways & veneer</p>
                 </div>
               </div>
             </div>
