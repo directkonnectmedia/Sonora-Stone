@@ -21,7 +21,7 @@ const Home = (props) => {
             <div className="hero-centerpiece-card">
               <img
                 alt="Modern home entrance with dark ledger stone pillars, light stone veneer walls, and glass front door"
-                src="/hero-stone-archway.jpg"
+                src="/sonora-stone-hero-bg.png"
                 className="hero-centerpiece-image"
               />
               <div className="hero-centerpiece-overlay">
