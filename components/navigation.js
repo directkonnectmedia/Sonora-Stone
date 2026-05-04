@@ -10,16 +10,18 @@ const Navigation = (props) => {
         <nav className="navigation-root">
           <div className="navigation-container">
             <Link href="/">
-              <a>
+              <a className="navigation-brand">
                 <div className="navigation-logo-link">
                   <img
                     src="/sonora-stone-logo.png"
-                    alt="Sonora Stone — Stone Installation"
+                    alt=""
                     className="navigation-logo-img"
-                    width={200}
-                    height={72}
+                    width={168}
+                    height={60}
+                    aria-hidden="true"
                   />
                 </div>
+                <span className="navigation-brand-wordmark">Sonora Stone</span>
               </a>
             </Link>
             <div className="navigation-desktop-menu">
@@ -71,13 +73,19 @@ const Navigation = (props) => {
           className="navigation-mobile-overlay"
         >
           <div className="navigation-overlay-header">
-            <img
-              src="/sonora-stone-logo.png"
-              alt="Sonora Stone — Stone Installation"
-              className="navigation-logo-img navigation-logo-img-overlay"
-              width={196}
-              height={70}
-            />
+            <div className="navigation-overlay-brand">
+              <img
+                src="/sonora-stone-logo.png"
+                alt=""
+                className="navigation-logo-img navigation-logo-img-overlay"
+                width={160}
+                height={56}
+                aria-hidden="true"
+              />
+              <span className="navigation-brand-wordmark navigation-brand-wordmark-overlay">
+                Sonora Stone
+              </span>
+            </div>
             <button
               id="navigation-mobile-close"
               aria-label="Close Menu"

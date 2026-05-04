@@ -35,8 +35,14 @@ const Home = (props) => {
                       Arizona&apos;s Premier Custom Studio
                     </span>
                   </div>
-                  <h1 className="hero-title">
-                    Bespoke Craftsmanship Tailored to You.
+                  <h1 className="hero-title hero-title-logo">
+                    <img
+                      src="/sonora-stone-logo.png"
+                      alt="Sonora Stone — Stone Installation"
+                      className="hero-brand-logo-img"
+                      width={520}
+                      height={188}
+                    />
                   </h1>
                   <div className="editorial-hero-actions">
                     <a href="#contact" className="navigation-anchor">
