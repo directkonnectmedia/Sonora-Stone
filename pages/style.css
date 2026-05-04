@@ -1860,6 +1860,8 @@ html {
     rgba(23, 24, 28, 0.08) 100%
   );
   padding: var(--spacing-3xl) var(--spacing-xl);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 .hero-centerpiece-overlay .editorial-hero-metric {
@@ -1947,8 +1949,6 @@ html {
     inset 0 0 42px rgba(0, 0, 0, 0.22),
     inset 0 1px 0 rgba(255, 255, 255, 0.08),
     0 2px 14px rgba(0, 0, 0, 0.3) !important;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
   font-family: var(--font-family-heading);
   font-size: clamp(1.05rem, 2vw, 1.38rem);
   font-weight: 600;
@@ -1960,8 +1960,6 @@ html {
   background-color: var(--color-hero-cta-gold) !important;
   color: var(--color-hero-cta-text) !important;
   border-color: color-mix(in srgb, var(--color-hero-cta-text) 22%, var(--color-hero-cta-gold)) !important;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
   box-shadow: 0 3px 18px rgba(0, 0, 0, 0.24) !important;
 }
 
@@ -2223,6 +2221,8 @@ html {
     align-self: stretch;
     width: 100%;
     overflow: visible;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
   .editorial-hero-content {
     margin-top: 0;
