@@ -13,7 +13,7 @@ html {
   --spacing-2xl: 3rem;
   --spacing-3xl: 4rem;
   --spacing-4xl: 4rem;
-  --color-accent: #0c8b8b;
+  --color-accent: #d4af37;
   --color-brand-gold: #d4af37;
   --color-border: rgba(191, 198, 204, 0.12);
   --font-size-lg: clamp(1.1rem, 1.6vw, 1.25rem);
@@ -34,7 +34,7 @@ html {
   --shadow-level-2: 0 6px 20px rgba(0, 0, 0, 0.12);
   --shadow-level-3: 0 18px 40px rgba(0, 0, 0, 0.18);
   --color-backplate: color-mix(in oklab, #ffffff 60%, transparent);
-  --color-on-accent: #ffffff;
+  --color-on-accent: #141210;
   --color-secondary: #1e2730;
   --border-radius-lg: 16px;
   --border-radius-md: 10px;
@@ -714,7 +714,7 @@ html {
 }
  
 .btn:focus-visible {
-  outline: 2px solid var(--color-outline);
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
  
@@ -1463,7 +1463,7 @@ html {
  
 .testimonials {
   padding: var(--spacing-4xl) 0;
-  background: radial-gradient(circle at top right, rgba(12, 139, 139, 0.05), transparent);
+  background: radial-gradient(circle at top right, rgba(212, 175, 55, 0.08), transparent);
 }
  
 .testimonials-container {
@@ -1543,7 +1543,7 @@ html {
 .lead-gen-direct {
   margin: var(--spacing-2xl) 0;
   padding: var(--spacing-xl);
-  background: rgba(12, 139, 139, 0.03);
+  background: rgba(212, 175, 55, 0.05);
   border-left: 2px solid var(--color-accent);
 }
  
@@ -2088,7 +2088,7 @@ html {
 .form-textarea:focus {
   outline: none;
   border-color: var(--color-accent);
-  background: rgba(12, 139, 139, 0.08);
+  background: rgba(212, 175, 55, 0.1);
 }
 
 .modal-card {
