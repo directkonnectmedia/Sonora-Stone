@@ -1846,6 +1846,8 @@ html {
 .hero-title.hero-title-logo {
   margin: 0;
   max-width: 100%;
+  font-size: 0;
+  line-height: 0;
 }
 
 .hero-title.hero-title-logo::after {
