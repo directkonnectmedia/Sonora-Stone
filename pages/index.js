@@ -82,39 +82,10 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <section className="hero-marquee-divider">
-          <div className="marquee-content">
-            <span>CUSTOM CABINETS</span>
-            <span className="marquee-dot"></span>
-            <span>GRANITE</span>
-            <span className="marquee-dot"></span>
-            <span>QUARTZ</span>
-            <span className="marquee-dot"></span>
-            <span>BATHROOM VANITIES</span>
-            <span className="marquee-dot"></span>
-            <span>ARTIFICIAL ROCK SLABS</span>
-            <span className="marquee-dot"></span>
-            <span>CUSTOM CABINETS</span>
-            <span className="marquee-dot"></span>
-            <span>GRANITE</span>
-            <span className="marquee-dot"></span>
-            <span>QUARTZ</span>
-            <span className="marquee-dot"></span>
-            <span>BATHROOM VANITIES</span>
-            <span className="marquee-dot"></span>
-            <span>ARTIFICIAL ROCK SLABS</span>
-            <span className="marquee-dot"></span>
-          </div>
-        </section>
         <section id="services" className="editorial-spread">
           <div className="editorial-spread-container">
             <div className="editorial-spread-header">
-              <h2 className="section-title">Services</h2>
-              <p className="section-content">
-                Bespoke stone veneer for spaces that breathe—outdoor living,
-                hearthside warmth, and architecture that announces your home
-                before you&apos;ve crossed the threshold.
-              </p>
+              <h2 className="section-title services-section-title">Services</h2>
             </div>
             <div className="editorial-spread-grid">
               <div className="spread-item">
@@ -126,13 +97,7 @@ const Home = (props) => {
                   />
                 </div>
                 <div className="spread-glass-panel">
-                  <h3 className="section-subtitle">
-                    Custom stone veneer work — Back patios
-                  </h3>
-                  <p className="section-content">
-                    Custom stone veneers made for you by us. Make your dream
-                    vision come true.
-                  </p>
+                  <h3 className="section-subtitle">Custom Stone Veneer Work</h3>
                 </div>
               </div>
               <div className="spread-item">
@@ -145,12 +110,8 @@ const Home = (props) => {
                 </div>
                 <div className="spread-glass-panel">
                   <h3 className="section-subtitle">
-                    Indoor stone veneer — Fireplace
+                    Indoor Stone Veneer Fireplace
                   </h3>
-                  <p className="section-content">
-                    Quiet luxury centered on the hearth—tailored stonework that
-                    frames the flame and elevates every evening in your home.
-                  </p>
                 </div>
               </div>
               <div className="spread-item">
@@ -163,13 +124,8 @@ const Home = (props) => {
                 </div>
                 <div className="spread-glass-panel">
                   <h3 className="section-subtitle">
-                    Stone veneer — Pillars &amp; archways for outdoor homes
+                    Stone veneer, pillars, and archways
                   </h3>
-                  <p className="section-content">
-                    Statement columns and refined archways carved in stone—built
-                    to endure desert sun while welcoming guests with unmistakable
-                    presence.
-                  </p>
                 </div>
               </div>
             </div>
@@ -316,9 +272,9 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="section-content">
-                  &quot;Miguel&apos;s attention to detail is unmatched. Our
-                  custom kitchen island is the focal point of our entire home.
-                  Pure craftsmanship.&quot;
+                  &quot;Our backyard patio walls are exactly what we pictured—
+                  custom stone veneer that holds up to Arizona sun without
+                  looking heavy.&quot;
                 </p>
                 <div className="testimonial-author">
                   <span className="author-name">Julianna Vance</span>
@@ -379,9 +335,8 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="section-content">
-                  &quot;Finally, a contractor who understands modern luxury. No
-                  templates, just beautiful bespoke work tailored to our
-                  lifestyle.&quot;
+                  &quot;The indoor fireplace surround Miguel built is the room
+                  everyone gathers around—the stone veneer work is immaculate.&quot;
                 </p>
                 <div className="testimonial-author">
                   <span className="author-name">Marcus Chen</span>
@@ -442,8 +397,8 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="section-content">
-                  &quot;The granite selection and installation were flawless.
-                  Miguel is a true artist when it comes to stone work.&quot;
+                  &quot;New stone columns and an archway at our entryway changed
+                  the whole feel of our home—we get compliments every week.&quot;
                 </p>
                 <div className="testimonial-author">
                   <span className="author-name">Sarah Miller</span>
@@ -504,9 +459,8 @@ const Home = (props) => {
                   </svg>
                 </div>
                 <p className="section-content">
-                  &quot;From the first sketch to the final install, the process
-                  was seamless. Our bathroom vanity is a piece of furniture
-                  art.&quot;
+                  &quot;We wanted something one-of-a-kind for our outdoor living
+                  area—the custom stonework ties the whole patio together.&quot;
                 </p>
                 <div className="testimonial-author">
                   <span className="author-name">David L.</span>
@@ -611,14 +565,8 @@ const Home = (props) => {
                           name="project_type"
                           value="stone-veneer-back-patios"
                         />
-                        <span className="option-content option-lines">
-                          <span className="option-line-title">
-                            Custom stone veneer — Back patios
-                          </span>
-                          <span className="option-line-desc">
-                            Custom stone veneers made for you by us. Make your
-                            dream vision come true.
-                          </span>
+                        <span className="option-content">
+                          Custom stone veneer work
                         </span>
                       </label>
                       <label className="option-card auto-advance">
@@ -627,14 +575,8 @@ const Home = (props) => {
                           name="project_type"
                           value="stone-veneer-fireplace"
                         />
-                        <span className="option-content option-lines">
-                          <span className="option-line-title">
-                            Indoor stone veneer — Fireplace
-                          </span>
-                          <span className="option-line-desc">
-                            Hearth-centered stonework crafted for warmth, depth,
-                            and understated luxury indoors.
-                          </span>
+                        <span className="option-content">
+                          Indoor stone veneer fireplace
                         </span>
                       </label>
                       <label className="option-card auto-advance">
@@ -643,14 +585,8 @@ const Home = (props) => {
                           name="project_type"
                           value="stone-veneer-pillars-archways"
                         />
-                        <span className="option-content option-lines">
-                          <span className="option-line-title">
-                            Stone veneer — Pillars &amp; archways for outdoor homes
-                          </span>
-                          <span className="option-line-desc">
-                            Columns and archways in natural stone presence—welcome
-                            guests with enduring curb appeal.
-                          </span>
+                        <span className="option-content">
+                          Stone veneer pillars and archways
                         </span>
                       </label>
                     </div>
@@ -844,6 +780,30 @@ const Home = (props) => {
                 </form>
               </div>
             </div>
+          </div>
+        </section>
+        <section className="hero-marquee-divider hero-marquee-below-contact" aria-hidden="true">
+          <div className="marquee-content">
+            <span>STONE ARCHWAYS</span>
+            <span className="marquee-dot"></span>
+            <span>STONE FIREPLACE</span>
+            <span className="marquee-dot"></span>
+            <span>STONE COLUMNS</span>
+            <span className="marquee-dot"></span>
+            <span>STONE PATIO</span>
+            <span className="marquee-dot"></span>
+            <span>CUSTOM STONE WORK</span>
+            <span className="marquee-dot"></span>
+            <span>STONE ARCHWAYS</span>
+            <span className="marquee-dot"></span>
+            <span>STONE FIREPLACE</span>
+            <span className="marquee-dot"></span>
+            <span>STONE COLUMNS</span>
+            <span className="marquee-dot"></span>
+            <span>STONE PATIO</span>
+            <span className="marquee-dot"></span>
+            <span>CUSTOM STONE WORK</span>
+            <span className="marquee-dot"></span>
           </div>
         </section>
         <section className="quick-cta-strip">

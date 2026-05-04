@@ -78,37 +78,30 @@ const Footer = (props) => {
                 <h3 className="footer-heading">Bespoke Services</h3>
                 <ul className="footer-links-list">
                   <li>
-                    <a href="#">
+                    <a href="#services">
                       <div className="footer-link">
-                        <span>Custom Cabinets</span>
+                        <span>Custom stone veneer work</span>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="#services">
                       <div className="footer-link">
-                        <span>Quartz Countertops</span>
+                        <span>Indoor stone veneer fireplace</span>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="#services">
                       <div className="footer-link">
-                        <span>Granite Slabs</span>
+                        <span>Stone veneer pillars and archways</span>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="#services">
                       <div className="footer-link">
-                        <span>Luxury Bathroom Vanities</span>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div className="footer-link">
-                        <span>Artificial Rock Slabs</span>
+                        <span>Custom stone work</span>
                       </div>
                     </a>
                   </li>
