@@ -1937,13 +1937,18 @@ html {
   white-space: nowrap;
 }
 
-/* Hero CTAs: text-forward outline buttons (large, bold labels) */
+/* Hero CTAs: text-forward outline buttons (large, bold labels + slight shadow veil) */
 .hero-cta-gold-btn {
   color: rgba(252, 250, 247, 0.98) !important;
-  background-color: transparent !important;
+  background-color: rgba(11, 13, 17, 0.32) !important;
   border: 2px solid var(--color-hero-cta-gold) !important;
   border-color: var(--color-hero-cta-gold) !important;
-  box-shadow: none !important;
+  box-shadow:
+    inset 0 0 42px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 2px 14px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   font-family: var(--font-family-heading);
   font-size: clamp(1.05rem, 2vw, 1.38rem);
   font-weight: 600;
@@ -1955,6 +1960,9 @@ html {
   background-color: var(--color-hero-cta-gold) !important;
   color: var(--color-hero-cta-text) !important;
   border-color: color-mix(in srgb, var(--color-hero-cta-text) 22%, var(--color-hero-cta-gold)) !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.24) !important;
 }
 
 /* === STANDALONE MARQUEE DIVIDER === */
