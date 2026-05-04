@@ -108,31 +108,31 @@ const Footer = (props) => {
                 </ul>
               </div>
               <div className="footer-column footer-nav-col">
-                <h3 className="footer-heading">The Studio</h3>
+                <h3 className="footer-heading">Sonora Stone</h3>
                 <ul className="footer-links-list">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <div className="footer-link">
-                        <span>Our Craftsmanship</span>
+                        <span>Home page</span>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="#services">
                       <div className="footer-link">
-                        <span>Materials Library</span>
+                        <span>Services</span>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="#gallery">
                       <div className="footer-link">
-                        <span>Project Portfolio</span>
+                        <span>Gallery section</span>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="#contact">
                       <div className="footer-link">
                         <span>Book a Consultation</span>
                       </div>
