@@ -44,14 +44,28 @@ const Home = (props) => {
                       height={260}
                     />
                   </h1>
-                  <div className="editorial-hero-actions">
-                    <a href="#contact" className="navigation-anchor">
+                  <div className="editorial-hero-actions hero-cta-dual">
+                    <a
+                      href="#contact"
+                      className="navigation-anchor hero-cta-anchor"
+                    >
                       <button
                         id="hero-book-btn"
                         type="button"
-                        className="btn-lg btn-primary btn"
+                        className="btn-lg btn-accent btn hero-cta-btn"
                       >
                         Book Consult
+                      </button>
+                    </a>
+                    <a
+                      href="#services"
+                      className="navigation-anchor hero-cta-anchor"
+                    >
+                      <button
+                        type="button"
+                        className="btn-lg btn-accent btn hero-cta-btn"
+                      >
+                        Services
                       </button>
                     </a>
                   </div>

@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 118px;
+  scroll-padding-top: 128px;
 }
 
 :root {
@@ -974,7 +974,7 @@ html {
  
 .navigation-container {
   border: 1px solid color-mix(in srgb, var(--color-border) 15%, transparent);
-  min-height: 96px;
+  min-height: 104px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -997,18 +997,18 @@ html {
 
 .navigation-brand-img {
   display: block;
-  height: clamp(56px, 10vw, 80px);
+  height: clamp(72px, 14vw, 120px);
   width: auto;
-  max-height: 80px;
-  max-width: min(100px, 22vw);
+  max-height: 120px;
+  max-width: min(148px, 34vw);
   object-fit: contain;
   flex-shrink: 0;
 }
 
 .navigation-brand-img-overlay {
-  height: clamp(52px, 12vw, 72px);
-  max-height: 72px;
-  max-width: min(92px, 26vw);
+  height: clamp(64px, 16vw, 104px);
+  max-height: 104px;
+  max-width: min(130px, 36vw);
 }
 
 .navigation-overlay-brand {
@@ -1427,6 +1427,8 @@ html {
   position: relative;
   aspect-ratio: 3/4;
   border-radius: var(--border-radius-lg);
+  box-sizing: border-box;
+  border: 1px solid var(--color-accent);
 }
  
 .portfolio-image {
@@ -1851,6 +1853,22 @@ html {
   margin-top: var(--spacing-3xl);
 }
 
+.editorial-hero-actions.hero-cta-dual {
+  justify-content: space-between;
+  align-items: center;
+  width: min(560px, 100%);
+  max-width: 600px;
+  gap: var(--spacing-md);
+}
+
+.hero-cta-anchor {
+  flex: 0 1 auto;
+}
+
+.hero-cta-dual .hero-cta-btn {
+  white-space: nowrap;
+}
+
 /* === STANDALONE MARQUEE DIVIDER === */
 .hero-marquee-divider {
   padding: var(--spacing-lg) 0;
@@ -2100,14 +2118,29 @@ html {
   .hero-centerpiece-overlay {
     padding: var(--spacing-2xl) var(--spacing-md);
   }
-  .editorial-hero-actions {
+  .editorial-hero-actions:not(.hero-cta-dual) {
     flex-direction: column;
     gap: var(--spacing-lg);
     width: 100%;
   }
-  .editorial-hero-actions .navigation-anchor,
-  .editorial-hero-actions .btn {
+
+  .editorial-hero-actions:not(.hero-cta-dual) .navigation-anchor,
+  .editorial-hero-actions:not(.hero-cta-dual) .btn {
     width: 100%;
+  }
+
+  .editorial-hero-actions.hero-cta-dual {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .editorial-hero-actions.hero-cta-dual .hero-cta-btn {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
   }
   .thq-grid-4 {
     grid-template-columns: 1fr 1fr 1fr;
@@ -2118,7 +2151,7 @@ html {
   .navigation-container {
     margin: 0 var(--spacing-md);
     padding: var(--spacing-sm) var(--spacing-xl);
-    min-height: 88px;
+    min-height: 96px;
   }
   .editorial-spread-grid {
     gap: var(--spacing-4xl);
@@ -2192,7 +2225,7 @@ html {
   .navigation-container {
     padding: var(--spacing-sm) var(--spacing-lg);
     border-radius: var(--border-radius-lg);
-    min-height: 84px;
+    min-height: 92px;
   }
   .navigation-desktop-menu {
     display: none;
@@ -2206,11 +2239,35 @@ html {
   .navigation-phone-text {
     display: none;
   }
-  .editorial-hero-actions {
+  .editorial-hero-actions:not(.hero-cta-dual) {
     gap: var(--spacing-lg);
     align-items: center;
     flex-direction: column;
     width: 100%;
+  }
+
+  .editorial-hero-actions:not(.hero-cta-dual) .navigation-anchor,
+  .editorial-hero-actions:not(.hero-cta-dual) .btn {
+    width: 100%;
+  }
+
+  .editorial-hero-actions.hero-cta-dual {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-sm);
+    width: 100%;
+    max-width: 100%;
+    padding-inline: var(--spacing-xs);
+  }
+
+  .editorial-hero-actions.hero-cta-dual .hero-cta-btn {
+    flex: 0 1 auto;
+    min-width: 0;
+    padding-left: var(--spacing-sm);
+    padding-right: var(--spacing-sm);
+    font-size: clamp(0.82rem, 2.8vw, 1rem);
   }
   .portfolio-masonry {
     grid-template-columns: 1fr;
@@ -2270,9 +2327,9 @@ html {
     flex-direction: column;
   }
   .navigation-brand-img {
-    height: clamp(48px, 14vw, 64px);
-    max-height: 64px;
-    max-width: min(88px, 24vw);
+    height: clamp(56px, 18vw, 92px);
+    max-height: 92px;
+    max-width: min(112px, 40vw);
   }
 
   .hero-brand-logo-img {
