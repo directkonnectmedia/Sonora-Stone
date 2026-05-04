@@ -1852,12 +1852,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* Lighter veil so the stonework stays visible; typography uses shadow below for contrast */
+  /* Minimal veil — photo shows through; typography still has its own shadows */
   background: linear-gradient(
     to bottom,
-    rgba(23, 24, 28, 0.42) 0%,
-    rgba(23, 24, 28, 0.18) 45%,
-    rgba(23, 24, 28, 0.62) 100%
+    rgba(23, 24, 28, 0.05) 0%,
+    rgba(23, 24, 28, 0.02) 45%,
+    rgba(23, 24, 28, 0.08) 100%
   );
   padding: var(--spacing-3xl) var(--spacing-xl);
 }
