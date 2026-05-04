@@ -91,8 +91,8 @@ const Home = (props) => {
               <div className="spread-item">
                 <div className="spread-image-wrapper">
                   <img
-                    alt="Outdoor stone veneer patio backdrop"
-                    src="https://images.pexels.com/photos/2210271/pexels-photo-2210271.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Exterior chimney and patio clad in light custom stone veneer with arched windows and porch"
+                    src="/services-stone-chimney.jpg"
                     className="spread-image"
                   />
                 </div>
