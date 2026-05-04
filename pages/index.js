@@ -147,7 +147,7 @@ const Home = (props) => {
                 />
                 <div className="portfolio-hover-card">
                   <h4 className="portfolio-item-title">Entertainment stone wall</h4>
-                  <p className="portfolio-item-meta">Arizona • Stone veneer & wood</p>
+                  <p className="portfolio-item-meta">Arizona • Stone veneer</p>
                 </div>
               </div>
               <div className="portfolio-item">
@@ -157,7 +157,7 @@ const Home = (props) => {
                   className="portfolio-image"
                 />
                 <div className="portfolio-hover-card">
-                  <h4 className="portfolio-item-title">Poolside stone columns</h4>
+                  <h4 className="portfolio-item-title">Outdoor stone Archway</h4>
                   <p className="portfolio-item-meta">Scottsdale • Outdoor veneer</p>
                 </div>
               </div>
@@ -223,7 +223,7 @@ const Home = (props) => {
                   className="portfolio-image"
                 />
                 <div className="portfolio-hover-card">
-                  <h4 className="portfolio-item-title">Entry columns & stonework</h4>
+                  <h4 className="portfolio-item-title">Custom Stone columns</h4>
                   <p className="portfolio-item-meta">Mesa • Stone columns</p>
                 </div>
               </div>
