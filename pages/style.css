@@ -2247,9 +2247,23 @@ html {
     font-size: clamp(0.6rem, 2.85vw, 0.76rem);
     letter-spacing: 0.14em;
   }
+  .hero-title.hero-title-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
   .hero-brand-logo-img {
     max-height: clamp(118px, 36vw, 200px);
-    width: min(92vw, 520px);
+    width: auto;
+    max-width: min(520px, 100%);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
   }
   .editorial-hero-actions {
     margin-top: var(--spacing-xl);
@@ -2509,9 +2523,12 @@ html {
   }
 
   .hero-brand-logo-img {
-    width: min(92vw, 400px);
+    width: auto;
+    max-width: min(400px, 100%);
     max-height: min(164px, 32vh);
     max-height: min(164px, 32svh);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .editorial-hero-content {
