@@ -20,8 +20,8 @@ const Home = (props) => {
           <div className="editorial-hero-container">
             <div className="hero-centerpiece-card">
               <img
-                alt="The Obsidian Suite - Luxury modern kitchen with custom dark cabinetry"
-                src="https://images.pexels.com/photos/6264414/pexels-photo-6264414.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                alt="Modern home entrance with dark ledger stone pillars, light stone veneer walls, and glass front door"
+                src="/hero-stone-archway.jpg"
                 className="hero-centerpiece-image"
               />
               <div className="hero-centerpiece-overlay">
