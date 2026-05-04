@@ -11,17 +11,9 @@ const Navigation = (props) => {
           <div className="navigation-container">
             <Link href="/">
               <a className="navigation-brand">
-                <div className="navigation-logo-link">
-                  <img
-                    src="/sonora-stone-logo.png"
-                    alt=""
-                    className="navigation-logo-img"
-                    width={168}
-                    height={60}
-                    aria-hidden="true"
-                  />
-                </div>
-                <span className="navigation-brand-wordmark">Sonora Stone</span>
+                <span className="navigation-brand-wordmark sonora-stone-gold-text">
+                  Sonora Stone
+                </span>
               </a>
             </Link>
             <div className="navigation-desktop-menu">
@@ -74,15 +66,7 @@ const Navigation = (props) => {
         >
           <div className="navigation-overlay-header">
             <div className="navigation-overlay-brand">
-              <img
-                src="/sonora-stone-logo.png"
-                alt=""
-                className="navigation-logo-img navigation-logo-img-overlay"
-                width={160}
-                height={56}
-                aria-hidden="true"
-              />
-              <span className="navigation-brand-wordmark navigation-brand-wordmark-overlay">
+              <span className="navigation-brand-wordmark navigation-brand-wordmark-overlay sonora-stone-gold-text">
                 Sonora Stone
               </span>
             </div>

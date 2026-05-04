@@ -40,8 +40,8 @@ const Home = (props) => {
                       src="/sonora-stone-logo.png"
                       alt="Sonora Stone — Stone Installation"
                       className="hero-brand-logo-img"
-                      width={520}
-                      height={188}
+                      width={720}
+                      height={260}
                     />
                   </h1>
                   <div className="editorial-hero-actions">

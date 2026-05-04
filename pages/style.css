@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+  scroll-padding-top: 118px;
 }
 
 :root {
@@ -15,6 +15,10 @@ html {
   --spacing-4xl: 4rem;
   --color-accent: #0c8b8b;
   --color-brand-gold: #d4af37;
+  --sonora-gold-light: #f7eacb;
+  --sonora-gold-face: #e8c547;
+  --sonora-gold-mid: #c9a227;
+  --sonora-gold-deep: #856a15;
   --color-border: rgba(191, 198, 204, 0.12);
   --font-size-lg: clamp(1.1rem, 1.6vw, 1.25rem);
   --font-size-sm: clamp(0.85rem, 1.1vw, 0.95rem);
@@ -974,10 +978,11 @@ html {
  
 .navigation-container {
   border: 1px solid color-mix(in srgb, var(--color-border) 15%, transparent);
-  height: 72px;
+  min-height: 96px;
+  height: auto;
   margin: 0 auto;
   display: flex;
-  padding: 0 var(--spacing-xl);
+  padding: var(--spacing-sm) var(--spacing-2xl);
   max-width: var(--content-max-width);
   background: color-mix(in srgb, var(--color-surface) 40%, transparent);
   align-items: center;
@@ -990,53 +995,54 @@ html {
 .navigation-brand {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: var(--spacing-md);
   text-decoration: none;
   color: inherit;
 }
 
+/* Matches centerpiece logo gold lettering */
+.sonora-stone-gold-text {
+  color: transparent;
+  background-image: linear-gradient(
+    165deg,
+    var(--sonora-gold-light) 0%,
+    var(--sonora-gold-face) 28%,
+    var(--sonora-gold-mid) 52%,
+    var(--sonora-gold-deep) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@supports not (background-clip: text) {
+  .sonora-stone-gold-text {
+    background-image: none;
+    -webkit-text-fill-color: unset;
+    color: var(--sonora-gold-face);
+    text-shadow:
+      0 1px 0 var(--sonora-gold-deep),
+      0 2px 12px rgba(0, 0, 0, 0.4);
+  }
+}
+
 .navigation-brand-wordmark {
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(1.45rem, 3.2vw, 2.35rem);
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  line-height: 1.05;
-  color: var(--color-brand-gold);
-  text-shadow:
-    0 1px 0 rgba(90, 70, 18, 0.85),
-    0 2px 14px rgba(0, 0, 0, 0.35);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  filter: drop-shadow(0 2px 14px rgba(0, 0, 0, 0.5));
 }
 
 .navigation-brand-wordmark-overlay {
-  font-size: clamp(1.35rem, 4.5vw, 1.85rem);
+  font-size: clamp(1.9rem, 7vw, 3rem);
 }
 
 .navigation-overlay-brand {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: var(--spacing-sm);
   flex: 1;
   min-width: 0;
-}
-
-.navigation-logo-link {
-  flex-shrink: 0;
-  text-decoration: none;
-}
-
-.navigation-logo-img {
-  display: block;
-  height: 40px;
-  width: auto;
-  max-width: min(148px, 38vw);
-  object-fit: contain;
-}
-
-.navigation-logo-img-overlay {
-  height: 36px;
-  max-width: 140px;
 }
  
 .navigation-desktop-menu {
@@ -1113,7 +1119,7 @@ html {
 .navigation-link {
   color: var(--color-on-surface);
   opacity: 0.7;
-  font-size: var(--font-size-sm);
+  font-size: clamp(0.92rem, 1.35vw, 1.08rem);
   transition: opacity 0.3s ease, transform 0.3s ease;
   font-family: var(--font-family-body);
   font-weight: var(--font-weight-medium);
@@ -1856,12 +1862,12 @@ html {
 
 .hero-brand-logo-img {
   display: block;
-  width: min(520px, 92vw);
+  width: min(720px, 96vw);
   height: auto;
-  max-height: min(260px, 38vh);
+  max-height: min(400px, 54vh);
   margin: 0 auto;
   object-fit: contain;
-  filter: drop-shadow(0 16px 40px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 20px 48px rgba(0, 0, 0, 0.55));
 }
 
 .editorial-hero-actions {
@@ -2188,6 +2194,8 @@ html {
   }
   .navigation-container {
     margin: 0 var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-xl);
+    min-height: 88px;
   }
   .editorial-spread-grid {
     gap: var(--spacing-4xl);
@@ -2259,8 +2267,9 @@ html {
     flex: 1 1 auto;
   }
   .navigation-container {
-    padding: 0 var(--spacing-lg);
+    padding: var(--spacing-sm) var(--spacing-lg);
     border-radius: var(--border-radius-lg);
+    min-height: 84px;
   }
   .navigation-desktop-menu {
     display: none;
@@ -2337,23 +2346,13 @@ html {
     gap: var(--spacing-xs);
     flex-direction: column;
   }
-  .navigation-logo-img {
-    height: 38px;
-    max-width: min(200px, 50vw);
-  }
-
-  .navigation-logo-img-overlay {
-    height: 34px;
-    max-width: 180px;
-  }
-
   .navigation-brand-wordmark {
-    font-size: clamp(1.05rem, 4.8vw, 1.55rem);
+    font-size: clamp(1.65rem, 8vw, 2.85rem);
   }
 
   .hero-brand-logo-img {
-    width: min(340px, 88vw);
-    max-height: min(200px, 32vh);
+    width: min(540px, 94vw);
+    max-height: min(340px, 48vh);
   }
 
   .hero-feature-glass-card {
